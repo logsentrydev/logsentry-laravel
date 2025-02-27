@@ -4,7 +4,6 @@ namespace LogSentry\Laravel;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use VendorName\Skeleton\Commands\SkeletonCommand;
 
 class LogSentryServiceProvider extends PackageServiceProvider
 {
@@ -12,9 +11,6 @@ class LogSentryServiceProvider extends PackageServiceProvider
     {
         $package
             ->name('logsentry')
-            ->hasConfigFile()
-            ->hasViews()
-            ->hasMigration('create_migration_table_name_table')
-            ->hasCommand(SkeletonCommand::class);
+            ->hasConfigFile();
     }
 }
