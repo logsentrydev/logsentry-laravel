@@ -1,12 +1,12 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "logsentrydev/logsentry-laravel",
+    "description": "LogSentry integration for Laravel",
     "keywords": [
-        ":vendor_name",
+        "LogSentry",
         "laravel",
-        ":package_slug"
+        "logsentry-laravel"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/logsentrydev/logsentrydev",
     "license": "MIT",
     "authors": [
         {
@@ -35,13 +35,12 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "LogSentry\\Laravel\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/",
+            "LogSentry\\Laravel\\Tests\\": "tests/",
             "Workbench\\App\\": "workbench/app/"
         }
     },
