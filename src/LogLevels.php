@@ -19,5 +19,4 @@ class LogLevels
     public const INFO = 6;
 
     public const DEBUG = 7;
-
 }
